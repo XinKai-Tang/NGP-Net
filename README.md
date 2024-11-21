@@ -3,7 +3,7 @@ Official Pytorch implementation of NGP-Net, from the following paper:
 
 **NGP-Net: A Lightweight Growth Prediction Network for Pulmonary Nodules.**
 
-Not Accepted yet (Regular Paper)
+Not published yet (Regular Paper)
 
 [Xinkai Tang](https://xinkai-tang.github.io), Feng Liu, *et al.*
 
