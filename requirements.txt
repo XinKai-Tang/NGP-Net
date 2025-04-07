@@ -1,0 +1,5 @@
+SimpleITK
+numpy
+pytorch
+setproctitle
+pandas
