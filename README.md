@@ -42,3 +42,9 @@ Growth prediction results of pulmonary nodules with different growth patterns (*
 
 ## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
+
+
+## Our Previous Works
+🥇**X. Tang**, F. Liu, R. Kong, *et al*. ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation [C]//IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2023: 1443-1450. \[[paper](https://ieeexplore.ieee.org/document/10385928)|[code](https://github.com/XinKai-Tang/ConvUNET)\]
+
+🥈**X. Tang**, Z. Zhu, S. Guo, *et al*. PN-Quant: An Automated Pulmonary Nodule Quantification Method for Full-Size CT Scans [C]//IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024: 2474-2480. \[[paper](https://ieeexplore.ieee.org/document/10822571)|[code](https://github.com/XinKai-Tang/PN-Quant)\]
