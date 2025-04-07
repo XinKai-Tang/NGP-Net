@@ -6,9 +6,11 @@ Official Pytorch implementation of NGP-Net, from the following paper:
 [Xinkai Tang](https://xinkai-tang.github.io)<sup>1+</sup>, Zhiyao Luo<sup>2+</sup>, Feng Liu<sup>1#</sup>, Wencai Huang<sup>3</sup>, Jiani Zou<sup>3#</sup>
 
 > <sup>1</sup> School of Computer Science, Wuhan University, China .  
-<sup>2</sup> Department of Engineering Science, University of Oxford .  
+<sup>2</sup> Department of Engineering Science, University of Oxford , UK.  
+<sup>3</sup> Department of Radiology, General Hospital of Central Theater Command of the PLA, China .  
 <sup>+</sup> Tang and Luo are the co-first authors.  
 <sup>#</sup> Liu and Zou are the corresponding authors.  
+
 
 ## Introduction
 We propose NGP-Net, a novel W-shaped deep learning architecture specifically designed for dynamic nodule growth prediction by directly modelling irregularly spaced longitudinal CT data. Unlike previous methods reliant on fixed growth metrics such as volumetric or mass-change rates, NGP-Net innovatively integrates temporal sensitivity into its predictive framework through a Spatial-Temporal Encoding Module (STEM) based on dilated depthwise separable convolutions. Furthermore, NGP-Net employs a dual-branch decoder to reconstruct high-fidelity textures and shapes of nodules at arbitrary future time intervals, significantly enhancing interpretability and clinical applicability. 
@@ -37,6 +39,6 @@ Growth prediction results of pulmonary nodules with different growth patterns on
 | **Stability / 75** | GM-AE       | 64.82     | 70.48     | 64.74     | 22.86     | 72.52     | 6.08×10⁻³          | 3.96×10⁻⁴         |
 |                    | **NGP-Net** | **81.02** | **82.10** | **82.76** | **23.75** | **74.66** | **5.45×10⁻³**      | **1.25×10⁻⁴**     |
 
+
 ## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
-
