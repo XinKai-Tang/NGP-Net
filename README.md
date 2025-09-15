@@ -23,7 +23,7 @@ Under the premise of strictly adhering to medical ethics principles, we collect 
 
 ### Overall Performance
 Comparison of methods in terms of Dice Similarity Coefficient (DSC), Sensitivity (SEN), Positive Predictive Value (PPV), Peak Signal-to-Noise Ratio (PSNR), Structural Similarity (SSIM), and Mean Square Errors in overall (MSE<sub>ROI</sub>) and nodule (MSE<sub>PN</sub>) regions. The values (described in "mean ± standard deviation") in the table are obtained by averaging the 5-fold cross-validation results, respectively.
-| Methods     | Param.  | FLOPs      | DSC(%)↑           | SEN(%)↑           | PPV(%)↑           | PSNR(dB)↑        | SSIM(%)↑          | MSEₐₒᵢ(×10⁻³)↓   | MSEₚₙ(×10⁻⁴)↓    |
+| Methods     | Param.  | FLOPs      | DSC(%)↑           | SEN(%)↑           | PPV(%)↑           | PSNR(dB)↑        | SSIM(%)↑          | MSE<sub>ROI</sub>(×10⁻³)↓   | MSE<sub>PN</sub>(×10⁻⁴)↓    |
 |-------------|---------|------------|-------------------|-------------------|-------------------|------------------|-------------------|------------------|-----------------|
 | NoFoNet     | 0.95 M  | 23.28 G    | 50.78 ± 16.19     | 52.29 ± 21.15     | 56.19 ± 19.56     | 21.63 ± 3.64     | 63.17 ± 15.90     | 9.81 ± 10.0      | 7.86 ± 29.9     |
 | WarpNet     | 0.48 M  | 11.70 G    | 50.78 ± 16.19     | 52.29 ± 21.15     | 56.19 ± 19.56     | 21.62 ± 3.64     | 63.08 ± 15.93     | 9.81 ± 10.0      | 7.87 ± 30.0     |
@@ -35,7 +35,7 @@ Comparison of methods in terms of Dice Similarity Coefficient (DSC), Sensitivity
 
 ### Performance on Distinct Growth Patterns
 Growth prediction results of pulmonary nodules with different growth patterns (**34** dilation cases; **41** shrinkage cases; **75** stability cases) on the test dataset. The values (described in "mean ± standard deviation") in the table are obtained by averaging the 5-fold cross-validation results, respectively.
-| Pattern   | Methods     | DSC(%)↑          | SEN(%)↑          | PPV(%)↑          | PSNR(dB)↑        | SSIM(%)↑         | MSEₐₒᵢ(×10⁻³)↓   | MSEₚₙ(×10⁻⁴)↓    |
+| Pattern   | Methods     | DSC(%)↑          | SEN(%)↑          | PPV(%)↑          | PSNR(dB)↑        | SSIM(%)↑         | MSE<sub>ROI</sub>(×10⁻³)↓   | MSE<sub>PN</sub>(×10⁻⁴)↓    |
 |-----------|-------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
 | Dilation  | GM-AE       | **63.02 ± 11.52** | 61.15 ± 15.24     | 69.31 ± 16.14     | 23.07 ± 3.94     | 64.09 ± 15.57     | 6.63 ± 4.46      | 31.5 ± 21.0      |
 |           | LNGNet      | 61.77 ± 10.86     | 59.59 ± 14.92     | 69.16 ± 16.41     | **23.13 ± 3.88** | 64.94 ± 15.37     | **6.50 ± 4.37**  | 32.5 ± 21.8      |
