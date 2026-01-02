@@ -25,8 +25,8 @@ Under the premise of strictly adhering to medical ethics principles, we collect 
 Comparison of methods in terms of Dice Similarity Coefficient (DSC), Sensitivity (SEN), Positive Predictive Value (PPV), Peak Signal-to-Noise Ratio (PSNR), Structural Similarity (SSIM), and Mean Square Errors in overall (MSE<sub>ROI</sub>) and nodule (MSE<sub>PN</sub>) regions. The values (described in "mean ± standard deviation") in the table are obtained by averaging the 5-fold cross-validation results, respectively.
 | Methods     | Param.  | FLOPs      | DSC(%)↑           | SEN(%)↑           | PPV(%)↑           | PSNR(dB)↑        | SSIM(%)↑          | MSE<sub>ROI</sub>(×10⁻³)↓   | MSE<sub>PN</sub>(×10⁻⁴)↓    |
 |-------------|---------|------------|-------------------|-------------------|-------------------|------------------|-------------------|------------------|-----------------|
-| NoFoNet     | 0.95 M  | 23.28 G    | 50.78 ± 16.19     | 52.29 ± 21.15     | 56.19 ± 19.56     | 21.63 ± 3.64     | 63.17 ± 15.90     | 9.81 ± 10.0      | 7.86 ± 29.9     |
 | WarpNet     | 0.48 M  | 11.70 G    | 50.78 ± 16.19     | 52.29 ± 21.15     | 56.19 ± 19.56     | 21.62 ± 3.64     | 63.08 ± 15.93     | 9.81 ± 10.0      | 7.87 ± 30.0     |
+| NoFoNet     | 0.95 M  | 23.28 G    | 50.78 ± 16.19     | 52.29 ± 21.15     | 56.19 ± 19.56     | 21.63 ± 3.61     | 63.17 ± 15.90     | 9.80 ± 9.99      | 7.86 ± 29.8     |
 | PredNet     | 0.49 M  | 11.70 G    | 46.45 ± 14.14     | 49.62 ± 20.48     | 52.67 ± 20.04     | 19.99 ± 2.88     | 56.34 ± 12.80     | 12.3 ± 8.54      | 6.77 ± 36.4     |
 | GM-AE       | 37.41 M | 724.79 G   | 61.64 ± 12.19     | 69.07 ± 16.45     | 60.84 ± 18.32     | 22.83 ± 2.98     | 65.74 ± 12.36     | 6.37 ± 3.92      | 30.5 ± 18.7     |
 | LNGNet      | 202.0 M | 117.24 G   | 59.46 ± 12.01     | 68.23 ± 16.54     | 58.13 ± 18.75     | 22.89 ± 2.96     | 66.31 ± 12.18     | 6.24 ± 3.83      | 31.4 ± 19.1     |
