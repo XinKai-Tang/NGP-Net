@@ -1,7 +1,9 @@
-# NGP-Net
+# NGP-Net (IEEE TMI 2026)
 Official Pytorch implementation of NGP-Net, from the following paper:
 
 **NGP-Net: A Lightweight Growth Prediction Network for Pulmonary Nodules**
+
+[IEEE TMI](https://ieeetmi.org/) (Accepted at 20 Jan. 2026, [Regular Paper](https://ieeexplore.ieee.org/document/11359361))
 
 [Xinkai Tang](https://xinkai-tang.github.io)<sup>1+</sup>, Zhiyao Luo<sup>2+</sup>, Feng Liu<sup>1#</sup>, Wencai Huang<sup>3</sup>, Jiani Zou<sup>3#</sup>
 
@@ -54,8 +56,27 @@ Growth prediction results of pulmonary nodules with different growth patterns (*
 ## Acknowledgement
 This work is supported by National Natural Science Foundation of China (NSFC No.62172309).
 
+
 ## Ethical Approval
 This study involving humans was approved by Medical Ethics Committee, General Hospital of Central Theater Command of the PLA, China, under Grant [2020]035-1. It was conducted in accordance with the local legislation and institutional requirements. The ethics committee/institutional review board waived the requirement of written informed consent for participation from the participants or the participants' legal guardians/next of kin because Retrospective data collection; no influence on patient treatment/care.
+
+
+## Citation 
+If you find this repository helpful, please consider citing:
+```
+@inproceedings{tang2026ngpnet,
+  author={Tang, Xinkai and Luo, Zhiyao and Liu, Feng and Huang, Wencai and Zou, Jiani},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={NGP-Net: a Lightweight Growth Prediction Network for Pulmonary Nodules}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  organization={IEEE},
+  doi={10.1109/TMI.2026.3656184}
+}
+```
+
 
 ## Our Previous Works
 🥇**X. Tang**, F. Liu, R. Kong, *et al*. ConvUNET: a Novel Depthwise Separable ConvNet for Lung Nodule Segmentation [C]//IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2023: 1443-1450. \[[paper](https://ieeexplore.ieee.org/document/10385928)|[code](https://github.com/XinKai-Tang/ConvUNET)\]
