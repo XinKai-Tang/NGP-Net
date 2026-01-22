@@ -15,11 +15,17 @@ Official Pytorch implementation of NGP-Net, from the following paper:
 
 
 ## Introduction
+
+![](figures/network.jpg)
+
 We propose NGP-Net, a novel W-shaped deep learning architecture specifically designed for dynamic nodule growth prediction by directly modelling irregularly spaced longitudinal CT data. Unlike previous methods reliant on fixed growth metrics such as volumetric or mass-change rates, NGP-Net innovatively integrates temporal sensitivity into its predictive framework through a Spatial-Temporal Encoding Module (STEM) based on dilated depthwise separable convolutions. Furthermore, NGP-Net employs a dual-branch decoder to reconstruct high-fidelity textures and shapes of nodules at arbitrary future time intervals, significantly enhancing interpretability and clinical applicability. 
+
+![](figures/blocks.jpg)
 
 
 ## The PNG Dataset
 Under the premise of strictly adhering to medical ethics principles, we collect a practical follow-up dataset, named **Pulmonary Nodule Growth (PNG)**, for pulmonary nodules with our cooperating hospital. The dataset contains *378* chest CT scans from $103$ patients with a total of *226* long-standing pulmonary nodules. Each nodule has at least three time-points of follow-up records, with an interval between $2$ and $64$ months, and all the nodules are annotated and checked by seven radiologists. Further details about PNG dataset can be found in [KAGGLE](https://kaggle.com/datasets/eb40d82b3bdd92bcdd202c50092443a8280a039f70fd96f2ad0cbc988ae57ca7).
+
 
 ## Prediction Results
 
