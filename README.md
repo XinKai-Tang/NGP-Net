@@ -5,13 +5,13 @@ Official Pytorch implementation of NGP-Net, from the following paper:
 
 [IEEE TMI](https://ieeetmi.org/) (Accepted at 20 Jan. 2026, [Regular Paper](https://ieeexplore.ieee.org/document/11359361))
 
-[Xinkai Tang](https://xinkai-tang.github.io)<sup>1+</sup>, Zhiyao Luo<sup>2+</sup>, Feng Liu<sup>1#</sup>, Wencai Huang<sup>3</sup>, Jiani Zou<sup>3#</sup>
+[Xinkai Tang](https://xinkai-tang.github.io)<sup>1📝</sup>, Zhiyao Luo<sup>2📝</sup>, Feng Liu<sup>1📧</sup>, Wencai Huang<sup>3</sup>, Jiani Zou
 
 > <sup>1</sup> School of Computer Science, Wuhan University, China .  
 <sup>2</sup> Department of Engineering Science, University of Oxford, UK .  
 <sup>3</sup> Department of Radiology, General Hospital of Central Theater Command of the PLA, China .  
-<sup>+</sup> Tang and Luo are the co-first authors.  
-<sup>#</sup> Liu and Zou are the corresponding authors.  
+<sup>📝</sup> Xinkai Tang and Zhiyao Luo are the co-first authors.  
+<sup>📧</sup> Feng Liu is the corresponding author.  
 
 
 ## Introduction
