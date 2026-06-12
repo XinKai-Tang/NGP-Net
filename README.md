@@ -75,9 +75,9 @@ If you find this repository helpful, please consider citing:
   journal={IEEE Transactions on Medical Imaging}, 
   title={NGP-Net: a Lightweight Growth Prediction Network for Pulmonary Nodules}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={45},
+  number={5},
+  pages={2468-2480},
   organization={IEEE},
   doi={10.1109/TMI.2026.3656184}
 }
